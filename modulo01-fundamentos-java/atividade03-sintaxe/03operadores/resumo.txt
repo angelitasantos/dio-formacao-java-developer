@@ -1,0 +1,226 @@
+operadores 01
+
+simbolos especiais
+operadores
+	aritmeticos
+	unarios
+	relacionais
+	logicos
+	ternario
+	
+
+##########################################################################################
+
+operadores 02
+
+atribuição
+simbolo: =
+valor inicial ou alterar o valor da variável
+
+String nome = "Angelita";
+int idade = 22;
+double peso = 68.5;
+char sexo = "M";
+boolean doadorOrgao = true;
+Date dataNascimento = new Date();
+Date é uma classe
+
+
+aritméticos
+
+double soma = 10.5 + 15.7;
+int subtracao = 113 - 25;
+int multiplicacao = 20 * 7;
+int divisao = 15 / 3;
+int modulo = 18 % 3;
+double resultado = (10 * 7) + (20 / 4);
+
+simbolo: + com strings
+concatenação de textos
+
+String nomeCompleto = "Linguagem " + "Java";
+String concatencacao = "?";
+concatencacao = 1+1+1+"1";
+concatencacao = 1+"1"+1+1;
+concatencacao = 1+"1"+1+"1";
+concatencacao = "1"+(1+1+1);
+
+
+##########################################################################################
+
+operadores 03
+
+unários
+incrementar, decrementar, inverter valores númericos e booleanos
+
+
++ positivo
+- negativo
+++ incremento
+-- decremento
+! negação
+
+
+int numero = 5;
+não altera a variável original
+System.out.println(- numero);
+
+altera a variável original
+numero = - numero;
+System.out.println(numero);
+
+voltar para positivo
+numero = numero * -1;
+System.out.println(numero);
+
+
+##########################################################################################
+
+operadores 04
+
+
+incrementar
+int numero = 5;
+
+numero = numero + 2;
+System.out.println(numero);
+
+
+
+numero++;
+// numero = numero + 1;
+System.out.println(numero);
+
+
+somar o numero depois da impressao
+System.out.println(numero++);
+System.out.println(numero);
+
+primeiro somar o numero no variavel
+System.out.println(++numero);
+
+
+decrementar
+System.out.println(numero--);
+System.out.println(--numero);
+
+
+inverter valores booleanos
+boolean variavel = true;
+não altera na variavel original
+System.out.println(!variavel);
+System.out.println(variavel);
+
+variavel = !variavel;
+System.out.println(variavel);
+
+
+##########################################################################################
+
+operadores 05
+
+
+operador ternario
+unica linha
+?:
+
+
+expressao condicional ? caso true : caso false
+
+
+int a, b;
+a = 5;
+b = 6;
+String resultado = "";
+
+if(a==b)
+	resultado = "Verdadeiro";
+else
+	resultado = "Falso";
+
+System.out.println(resultado);
+
+
+// ternario somente para expressoes booleanas que retornam true ou false
+String resultado = a == b ? "Verdadeiro" : "Falso";
+
+
+##########################################################################################
+
+operadores 06
+
+
+relacionais
+retorna um valor boolean
+
+== 	igualdade
+!= 	diferente
+> 	maior que
+>= 	maior ou igual
+< 	menor
+<= 	menor ou igual
+
+
+int numero1 = 1;
+int numero2 = 2;
+
+boolean simNao = numero1 == numero2;
+System.out.print("Numero1 é igual ao numero 2?" + simNao);
+
+
+simNao = numero1 != numero2;
+System.out.print("Numero1 é diferente do numero 2?" + simNao);
+
+
+simNao = numero1 >= numero2;
+System.out.print("Numero1 é maior ou igual ao numero 2?" + simNao);
+
+
+if(numero1 > numero2)
+	System.out.print("Numero1 maior que o numero 2");
+	
+
+if(numero1 < numero2)
+	System.out.print("Numero1 menor que o numero 2");
+
+
+String nomeUm = "Angelita";
+String nomeDois = "Angelita";
+System.out.println(nomeUm == nomeDois);
+
+
+// para objetos
+String conteudoUm = "Angelita";
+String conteudoDois = new String("Angelita");
+
+System.out.println(conteudoUm.equals(conteudoDois));
+
+
+##########################################################################################
+
+operadores 07
+
+
+Lógicos
+
+&& = E
+|| = ou
+	
+
+duas ou mais expressões
+
+boolean condicao1 = true;
+boolean condicao2 = false;
+
+if(condicao1 && condicao2){
+	System.out.println("As duas condições são verdadeiras.");
+}
+
+if(condicao1 || condicao2){
+	System.out.println("Uma das condições é verdadeira.");
+}
+
+
+if(condicao1 && (7 > 4)){
+	System.out.println("As duas condições são verdadeiras.");
+}
