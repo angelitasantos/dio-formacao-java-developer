@@ -1,0 +1,67 @@
+tipos e variaveis 01
+
+númericos inteiros e decimais
+tipos lógicos
+caracteres
+objetos
+diferença entre variável e constante
+
+
+##########################################################################################
+
+tipos e variaveis 02
+
+criar um projeto tipos-variaveis
+
+
+##########################################################################################
+
+tipos e variaveis 03
+
+tipos de dados
+tipos primitivos
+int, byte, short, long, float, double, boolean, char
+
+short ano = 2000;
+
+tipos numéricos
+byte, short, int, long
+
+tipos fracionarios
+float, double
+
+mais comuns utilizados: int e double
+
+
+declarar variáveis
+tipo de dados, identificacao, valor
+
+int idade;
+int anoFabricacao = 2021;
+double salarioMinimo = 1235.46;
+
+exemplos
+byte idade = 48;
+short ano = 2021;
+int cep = 30150420; provavel String
+long cpf = 12365478944L; provavel String
+float pi = 3.14F;
+double salario = 1275.33;
+
+
+short numeroCurto = 1;
+int numeroNormal = numeroCurto;
+short novoNumeroCurto = numeroNormal; DA ERRO
+cast
+short novoNumeroCurto = (short) numeroNormal; 
+
+
+##########################################################################################
+
+tipos e variaveis 04
+
+constantes
+CAIXA ALTA
+final no inicio da declaração
+
+final double VALOR_PI = 3.14;
