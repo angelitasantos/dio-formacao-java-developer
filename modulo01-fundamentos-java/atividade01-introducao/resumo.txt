@@ -1,0 +1,41 @@
+aula 01
+introducao e objetivos
+java basico
+Gleyson Sampaio
+glysns.gitbook.io/java-basico/
+
+
+
+aula 02
+o que é java?
+simples
+orientada a objeto
+	classe e objeto
+	encapsulamento
+	abstração
+	herança
+	polimorfismo
+
+qualquer plataforma
+bytecode
+portatil
+WORA write once run anywhere
+robusta
+segura
+compilada e interpretada
+	compila para gerar os arquivos
+	interpreta durante a execução
+multi-thread simultaneo
+
+
+
+aula 03
+história
+1991 - 1993 - 1995
+
+paginas web
+aplicacoes corporativas
+softwares
+aplicativos
+
+oracle

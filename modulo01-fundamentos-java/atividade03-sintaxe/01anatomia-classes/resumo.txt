@@ -1,0 +1,204 @@
+sintaxe java
+
+aula 01
+estrutura
+padrao de nomenclatura
+declarando variaveis e metodos
+indentacao
+organizacao de arquivos
+java beans
+
+
+	
+aula 02
+anatomia 01
+
+anatomia das classes
+
+bloco padrão
+public class MyClass {
+	// codigo aqui
+}
+
+ctrl + shift + p
+java create project
+no build tools
+
+java-anatomia-classes
+
+o código é escrito dentro da pasta src
+
+criar uma class
+MinhaClasse.java
+
+
+classe executável
+inicializar o projeto
+
+método principal: main dentro da classe
+public static void main (String [] args) {
+	System.out.print('Olá mundo!');
+}
+
+
+##########################################################################################
+
+anatomia 02
+
+arquivo = .java
+começar com letra maiúscula
+quando composta: as palavras em maiúscula
+a classe tem que ter o mesmo nome do arquivo
+
+variáveis
+minúsculas
+a primeira letra da segunda palavra maiúscula
+camelCase
+
+variáveis com letras maiúsculas não podem sofrer nenhuma alteração
+
+String BR = "Brasil";
+double PI = 3.14;
+int ANO_2000 = 2000;
+
+apenas letras, underline ou números
+não iniciar com números
+não pode conter espaços
+
+não usar palavras-chave
+
+variáveis aceitáveis
+
+numero1
+simbolo$
+simbolo_tbm
+
+
+##########################################################################################
+
+anatonia 03
+
+
+declarar variáveis e métodos
+
+variável = tipo, nome, valor
+
+string primeiroNome = "Angelita";
+int idade = 23;
+double altura = 1.62;
+boolean ativo = true;
+
+
+método
+tipoderetorno verboInfinitivo parametro()
+
+int somar (int num1, int num2)
+String formatarCep (long cep)
+
+
+public static void main (String [] args) {
+	String primeiroNome = "Angelita";
+	String segundoNome = "Santos";
+	
+	String nomeCompleto = nomeCompleto(primeiroNome, segundoNome);
+	
+	System,out.println(nomeCompleto);
+}
+
+
+public static String nomeCompleto(String primeiroNome, String segundoNome) {
+	return "Resultado do método " + primeiroNome.concat(" ").concat(segundoNome);
+}
+
+
+
+##########################################################################################
+
+anatonia 04
+
+indentação
+
+
+hierarquia do código
+facilitar a visualização
+entendimento melhor da programação
+
+
+dentro da class BoletimEstudantil
+código sem indentação
+
+int mediaFinal = 6;
+if(mediaFinal<6)
+System.out.println("Reprovado");
+else if(mediaFinal==6)
+System.out.println("Recuperação");
+else
+System.out.println("Aprovado");
+
+
+
+##########################################################################################
+
+anatomia 05
+
+
+organização de arquivos
+através de pacotes (packages)
+
+
+subdiretórios
+com.empresa.nomeprojeto
+
+
+pacotes
+com.empresa.nomeprojeto.pacote
+
+
+exemplo
+edu.lucas.tema.logica
+
+
+
+dentro da pasta src
+criar uma pasta
+edu.angelita.primeirasemana
+no arquivo incluir a linha
+package edu.angelita.primeirasemana;
+
+
+no vscode criar as pastas separadamente
+edu
+angelita
+primeirasemana
+
+
+
+##########################################################################################
+
+anatomia 06
+
+Java Beans
+
+estruturação da escrita universal
+classes, atributos, métodos, pacotes
+
+
+variáveis
+	no singular
+	exceto array, coleções
+	idioma
+	não abreviar
+	
+
+double salarioMedio = 1500.23;
+String email = "email@email.com;
+String meuNome = "Joseph";
+
+
+métodos
+
+verbos no infinitivo
+
+somar(int n1, int n2) {}
+abrirConexao(){}
+findById(int id){}

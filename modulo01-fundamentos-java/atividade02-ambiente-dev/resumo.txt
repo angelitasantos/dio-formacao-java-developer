@@ -1,0 +1,59 @@
+aula 01
+
+introdução
+	formatação de palavras e blocos de codigo
+	análise de erro de sintaxe
+	compilição de programa
+	depuração de execução
+
+vscode
+netbeans
+eclipse
+intellij
+
+workspaces
+criar, abrir e importar
+principais atalhos
+
+
+
+aula 02 configurando o ambiente
+
+jdk e jre
+
+instalar jdk
+sudo apt install default-jre
+java --version
+
+sudo apt install default-jdk
+javac -version
+
+
+sudo update-alternatives --config java
+sudo update-alternatives --config javac
+
+
+
+aula 03 vscode
+
+habilitar para programar em java
+https://www.youtube.com/watch?v=sIQrUSVGX3o
+ctrl + shift + P
+java create project
+escolhe a pasta e digita o nome do projeto
+Run para rodar o projeto no terminal vscode
+
+
+
+aula 04 eclipse
+sudo snap install --classic eclipse
+não marcar a opção delete project contents on disk
+
+
+
+aula 05 intellij
+sudo snap install intellij-idea-community --classic
+
+
+
+aula 06 integrando vscode x github
