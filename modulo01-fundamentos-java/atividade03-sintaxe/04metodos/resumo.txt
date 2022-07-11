@@ -1,0 +1,76 @@
+metodos 01
+
+criterios de criacao de metodos
+parametros
+visibilidade
+
+
+requisitos
+	proposta
+	retorno esperado
+	parametros
+	excecoes
+	visibilidade
+
+
+##########################################################################################
+
+metodos 02
+
+
+funções e sub-rotinas definidos dentro de uma classe
+quatro visibilidade de um metodo
+
+
+nomeação de métodos
+nomeado como verbo
+camelCase
+
+
+exemplos
+somar(int n1, int n2){}
+abrirConexao(){}
+findById(int id){}
+
+
+exemplo
+metodos void não tem return
+
+public class MyClass {
+	public double somar(int num1, int num2){
+		// logica do metodo
+		return ... ;
+	}
+	public void imprimir(String texto){
+		// logica do metodo
+	}
+	public double dividir(int num1, int num2)
+	throws Exception {
+		// logica do metodo
+		return ... ;
+	}
+	private void metodoPrivado(){
+		// somente dentro da classe
+	}
+	public void gravarCliente (Cliente cliente){}
+}
+
+
+##########################################################################################
+
+pratica: SmartTV
+
+
+caracteristicas:
+	ligada (boolean)
+	canal (int)
+	volume (int)
+	
+mudar o estado: ligada/desligada
+mudar o volume: aumentar/diminuir
+mudar o canal: numero correspondente ou 1 em 1
+
+nome do projeto
+sistema-smart-tv
+
+SmartTv.java
