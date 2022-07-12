@@ -1,0 +1,65 @@
+terminal e argumentos 01 
+
+
+main args
+scanner
+execução via ide
+execução via prompt
+
+
+##########################################################################################
+
+terminal e argumentos 02
+
+jvm configurada para executar depois de compilada
+dentro da pasta bin ficam os arquivos compilados
+
+no terminal ir ate a pasta bin do projeto
+java NomeClasse
+
+
+quando ocorrer uma alteração, compilar novamente
+
+
+##########################################################################################
+
+terminal e argumentos 03
+
+argumentos
+deixar mais dinamico
+
+java NomeClasse argumentoUm argumentoDois ...
+
+
+##########################################################################################
+
+terminal e argumentos 04
+
+vscode executar adicionar configurações
+
+acrescentar
+vscode arquivo launch.json
+"projectName": "about-me_b3ac6b75",
+"args": [
+	"Angelita",
+	"Santos",
+	"43",
+	"1.69"
+]
+
+pode executar dentro do vscode
+para testar o programa
+de maneira dinamica
+
+
+##########################################################################################
+
+terminal e argumentos 05
+
+
+scanner
+definir novas entradas de dados
+
+
+import java.util.Locale;
+import java.util.Scanner;
