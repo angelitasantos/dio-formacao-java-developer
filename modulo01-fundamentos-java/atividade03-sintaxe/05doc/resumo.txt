@@ -1,0 +1,27 @@
+java doc
+
+
+adicionar comentários
+// uma linha
+/*
+* comentario em varias linhas
+*/
+
+/**
+* documentacao
+*
+*/
+documentacao
+tags
+	@autor
+	@version
+	@since
+	@param
+	@return
+	@throws
+
+
+criar um javadoc
+
+digitar no terminal
+javadoc -encoding UTF-8 -docencoding ISO-8859-1 -d ../docs src/*.java

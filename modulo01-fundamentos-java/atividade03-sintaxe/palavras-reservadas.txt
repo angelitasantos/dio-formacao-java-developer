@@ -1,0 +1,62 @@
+palavras reservadas
+
+
+52 palavras
+	tipos primitivos
+	classificacoes
+	escopo de uso
+	palavras opostas
+
+
+não podem nomear variaveis, classse, metodos, atributos
+
+
+pacotes
+	import
+	package
+	
+acesso
+	public
+	private
+	protected
+	
+primitivos
+	boolean
+	byte
+	char
+	double
+	float
+	int
+	long
+	short
+	void
+	
+modificadores
+	abstract
+	class
+	extends
+	final
+	implements
+	interface
+	native
+	new
+	static
+	strictfp
+	synchronized
+	transient
+	volatile
+
+fluxo
+	break
+	case
+	continue
+	except
+	finally
+	return
+	throw
+	throws
+	try
+	
+referencia
+	super
+	this
