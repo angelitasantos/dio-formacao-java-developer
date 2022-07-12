@@ -1,0 +1,47 @@
+introducao
+controle de fluxo
+
+
+tipos de estruturas de repeticao
+
+estruturas 
+	condicionais: if-else, switch-case
+	repeticao: for, while, do-while
+	excecoes: try-catch-finally, throw
+
+
+##########################################################################################
+
+estruturas condicionais
+	simples
+	compostas
+	encadeada
+	ternaria
+	switch case
+
+
+condicionais simples
+uma jornada de execução
+
+double saldo = 25.0;
+double valorSolicitado = 17.0;
+
+if(valorSolicitado < saldo)
+	saldo = saldo - valorSolicitado;
+
+System.out.println(saldo);
+
+
+mais de uma linha de condição deve estar dentro de {}
+
+double saldo = 25.0;
+double valorSolicitado = 17.0;
+
+if(valorSolicitado < saldo) {
+	saldo = saldo - valorSolicitado;
+	System.out.println("Novo saldo " + saldo);
+} else
+	System.out.println("Saldo insuficiente!");
+
+##########################################################################################
+
