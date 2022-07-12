@@ -1,0 +1,38 @@
+escopo
+
+
+escopo de classe
+escopo de metodo
+escopo de fluxo
+
+
+ambiente onde uma variavel pode ser acessada
+
+
+public class Conta {
+	// escopo de classe
+	double saldo = 10.0;
+	
+	public void sacar(Double valor) {
+		double novoSaldo = saldo - valor;
+	}
+	
+	// escopo de metodo
+	public void imprimirSaldo(){
+		System.out.println(saldo);
+		// somente o metodo sacar tem acesso a essa variavel
+		System.out.println(novoSaldo);
+	}
+	
+	// escopo de fluxo
+	public double calcularDivida(){
+		double valorParcela = 50.0;
+		double valorMontante = 0.0;
+		
+		for(int x=1; x<=5; x++){
+			double valorCalculado = valorParcela * x;
+			valorMontante = valorMontante + valorCalculado;
+		}
+		return valorMontante;
+	}
+}
