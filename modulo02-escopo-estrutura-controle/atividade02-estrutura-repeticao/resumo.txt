@@ -1,0 +1,60 @@
+estrutura de repeticao
+
+for
+for em arrays
+break e continue
+while
+do while
+
+
+for
+
+for (A;B;C){
+	comando a ser executado
+	validação torne-se false
+}
+
+A - bloco de inicialização
+B - expressão de validação (boolean)
+C - bloco de atualização
+
+
+##########################################################################################
+
+break e continue
+
+// para a instrução quando chega no numero 3
+for(int numero = 1; numero <= 5; numero ++) {
+	if(numero == 3)
+		break;
+	System.out.println(numero);
+}
+
+// não imprimi o numero 3 mas imprimi os demais
+for(int numero = 1; numero <= 5; numero ++) {
+	if(numero == 3)
+		continue;
+	System.out.println(numero);
+}
+
+
+##########################################################################################
+
+while
+valida antes de uma execução 
+
+while(expressao booleana de validacao)
+ comando
+ expressao de validação falsa
+
+
+##########################################################################################
+
+do-while
+
+do {
+	comando a ser executado
+	expressao de validação para torna-se false
+}
+while (expressao booleana de validação);
+
