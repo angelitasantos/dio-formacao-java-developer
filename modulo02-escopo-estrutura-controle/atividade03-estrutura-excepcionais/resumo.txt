@@ -1,0 +1,29 @@
+try/catch
+
+
+NullPointerException
+obter variavel nula
+
+ArithmeticException
+dividir um valor por zero
+
+SQLException
+interação com o db
+
+FileNotFoundException
+ler ou escrever um arquivo que não existe
+
+try {
+	bloco de codigo esperado
+}
+catch(Exception e) {
+	codigo que captura as excecoes
+	fluxo não previsto
+}
+
+
+##########################################################################################
+
+hierarquia de exceções
+
+checked and unchecked exceptions
