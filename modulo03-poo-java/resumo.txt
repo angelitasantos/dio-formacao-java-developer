@@ -1,0 +1,115 @@
+conceito de POO
+
+classes
+tipos de classes
+	modelo
+	serviço
+	repositório
+	controle
+	utilitários
+	
+pacotes (package)
+subdiretórios dentro da pasta src
+nomenclatura
+	comercial = com.nomeempresa
+	governamental = gov.nomeempresa
+	codigo aberto = org.nomeempresa
+
+subpacotes
+proposta de existencia
+	model
+	repository
+	service
+	controller
+	view
+	util
+	resources
+	
+identificação
+exemplo
+com.controle.acesso.model.Usuario
+
+package x import
+somente um package por arquivo
+
+import varios por arquivo
+import ...
+import ...
+
+configuração do eclipse
+
+
+
+visibilidade de recursos
+	default
+	private
+	
+
+getter e setters
+
+exemplo 
+	public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String newNome) {
+        nome = newNome;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+
+    public void setIdade(int newIdade) {
+        this.idade = newIdade;
+    }
+
+construtores
+
+Classe nomeObjeto = new Classe();
+public class Pessoa {
+	private String nome;
+	private String cpf;
+	private String endereco;
+	
+	public String getNome(){return nome;}
+	public String getCpf(){return cpf};
+	public String getEndereco(){return endereco};
+	public void setEndereco(String endereco){
+		this.endereco = endereco;
+	}
+}
+
+metodo construtor
+mesmo nome da classe
+public Pessoa(String cpf, String nome){
+	this.cpf = cpf;
+	this.nome = nome;
+}
+atributos relevantes para criar o objeto
+Pessoa marcos = new Pessoa("123", "Marcos");
+
+enums
+conjunto de objetos que não mudam.
+
+escolaridade: analfabeto, fundamental ...
+estado civil: solteiro
+estados brasileiros: São Paulo, Rio de Janeiro ...
+
+
+uml
+linguagem de modelagem unificada
+
+diagramas, elementos, relacionamentos
+
+
+diagrama
+estruturais
+	classe
+	objeto
+comportamentais
+
+
+programas para diagramar
+astah
+draw.io
